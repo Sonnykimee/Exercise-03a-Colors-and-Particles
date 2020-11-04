@@ -13,9 +13,9 @@ func _ready():
 
 func update_color():
 	if HUD.color_ball:
-		pass
+		$Color.color = Color8(34,184,207)
 	else:
-		pass
+		$Color.color = Color(1,1,1,1)
 
 
 
